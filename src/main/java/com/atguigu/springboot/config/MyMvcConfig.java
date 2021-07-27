@@ -11,6 +11,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         //浏览器发送/atguigu 请求来到页面 success
+        //
         registry.addViewController("/atguigu").setViewName("success");
     }
 }
